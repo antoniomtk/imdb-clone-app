@@ -1,3 +1,5 @@
+import './globals.css';
+
 export const metadata = {
 	title: 'IMDB Clone AP7',
 	description: 'Next JS IMDB Application',
