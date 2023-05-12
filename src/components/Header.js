@@ -5,7 +5,7 @@ import MenuItem from './MenuItem';
 
 const Header = () => {
    return (
-      <div className='flex justify-around mx-2 max-w-6xl sm:mx-auto items-center py-8'>
+      <div className='flex justify-around max-w-6xl sm:mx-auto items-center py-8'>
          <div className='flex'>
             <MenuItem title='Home' address='/' Icon={AiFillHome} />
             <MenuItem title='About' address='/about' Icon={AiFillInfoCircle} />
@@ -21,7 +21,6 @@ const Header = () => {
                </h2>
             </Link>
          </div>
-         <div className=''></div>
       </div>
    );
 };

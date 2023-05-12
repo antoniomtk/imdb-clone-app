@@ -15,12 +15,12 @@ const DarkModeSwitch = () => {
          {mounted &&
             (currentTheme === 'dark' ? (
                <MdOutlineLightMode
-                  className='text-xl cusror-pointer hover:text-amber-500'
+                  className='text-xl cusror-pointer hover:text-amber-500 transition-colors duration-300'
                   onClick={() => setTheme('light')}
                />
             ) : (
                <BiMoon
-                  className='text-xl cusror-pointer hover:text-amber-500'
+                  className='text-xl cusror-pointer hover:text-amber-500 transition-colors duration-300'
                   onClick={() => setTheme('dark')}
                />
             ))}
