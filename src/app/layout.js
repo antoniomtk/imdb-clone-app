@@ -13,7 +13,9 @@ export default function RootLayout({ children }) {
    return (
       <>
          <html lang='en'>
-            <body>
+            <body
+               suppressHydrationWarning={true} // This prevents extensions from causing a server/client mismatch
+            >
                <Providers>
                   {/* Header */}
                   <Header />
