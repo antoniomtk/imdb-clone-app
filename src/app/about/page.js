@@ -1,7 +1,9 @@
 const Page = () => {
    return (
-      <div className='max-w-6xl mx-auto space-y-4'>
-         <h1 className='text-2xl font-medium text-amber-600'>About</h1>
+      <div className='max-w-4xl mx-auto space-y-4 px-6 text-justify'>
+         <h1 className='text-2xl sm:mx-auto font-medium text-amber-600'>
+            About
+         </h1>
          <p>
             Welcome to my movie database website. I am vary passionate self
             taught web developer and enthusiastic located in Metkovic, Croatia.
