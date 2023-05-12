@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
                suppressHydrationWarning={true} // This prevents extensions from causing a server/client mismatch
             >
                <Providers>
-                  {/* Header */}
                   <Header />
                   <Navbar />
                   {/* Search Box */}

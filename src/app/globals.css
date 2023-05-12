@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html::-webkit-scrollbar {
+   display: none;
+   scroll-behavior: smooth;
+}
+
+html {
+   scrollbar-width: none;
+   scroll-behavior: smooth;
+}
